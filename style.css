@@ -1,0 +1,108 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+body{
+background-color: white;
+
+  }
+nav {
+background-color: gray;
+margin: 20px;
+padding: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 70px;
+    vertical-align: middle;
+  
+}
+
+nav ul li:first-child{
+    padding-right: 30px;
+}
+nav ul {
+    padding-left: 125px;
+    
+}
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+
+}   
+
+
+
+.top {
+  text-align: center;
+  margin-top: 15px;
+}
+.middle {
+    text-align: center;
+    padding: 15px;
+}
+ 
+.middle img{
+    margin: 15px;
+}
+
+
+
+.bottom {
+    clear: both;
+
+
+}
+.bottom img{
+    float: left;
+    padding-left: 150px;
+}
+
+ .card h3{
+    display:inline-block;
+    padding-left:15px;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+
+}
+.card p{
+    
+    padding-left:15px;
+    text-align: left;
+    font-weight: normal;
+    overflow:scroll;
+    width: 30%;
+    height:300px ;
+}
+
+.card a{
+    margin:10px;
+    margin-left: 30px;
+    padding: 10px;
+    padding-right:30px;
+    padding-left:30px;
+    
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    border: black solid;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    text-decoration: none;
+
+} 
+footer{
+    clear: both;
+    margin-top: 15px;
+   position: relative;
+    background-color: gray;
+    padding: 20px;
+    padding-top: 50px;
+}
